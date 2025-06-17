@@ -23,4 +23,14 @@
   <build>
     <finalName>03-Maven-web-app</finalName>
   </build>
+  <build>
+  <finalName>03-Maven-web-app</finalName>
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-war-plugin</artifactId>
+      <version>3.3.2</version> <!-- <-- This is the newer compatible version -->
+    </plugin>
+  </plugins>
+</build>
 </project>
